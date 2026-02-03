@@ -22,8 +22,8 @@ const Footer = () => (
     <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
       <p className="text-secondary">© 2026 Jason Seh. Built with Next.js & React.</p>
       <div className="social-links" style={{ display: 'flex', gap: '2rem' }}>
-        <a href="#" className="text-secondary">GitHub</a>
-        <a href="#" className="text-secondary">LinkedIn</a>
+        <a href="https://github.com/jassehxia" className="text-secondary">GitHub</a>
+        <a href="https://linkedin.com/in/jason-seh" className="text-secondary">LinkedIn</a>
       </div>
     </div>
     <style dangerouslySetInnerHTML={{
