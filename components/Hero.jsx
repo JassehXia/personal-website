@@ -18,7 +18,7 @@ const Hero = () => {
             I am a student at The Ohio State University with a passion for software engineering specializing in applied AI/ML.
           </p>
           <div className="hero-btns" style={{ display: 'flex', gap: '1.5rem' }}>
-            <Link href="/#projects" className="btn btn-primary">View Projects</Link>
+
             <a href="/resume/resume.pdf" download="Jason_Seh_Resume.pdf" className="btn" style={{ border: '1px solid var(--accent-primary)', color: 'var(--accent-primary)' }}>Download CV</a>
           </div>
         </div>

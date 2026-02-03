@@ -13,6 +13,7 @@ const Technologies = () => {
     { name: 'Postgres', icon: '/tech/postgres.png' },
     { name: 'Prisma', icon: '/tech/prisma.png' },
     { name: 'MongoDB', icon: '/tech/mongodb.png' },
+    { name: 'Cloudflare', icon: '/tech/cloudflare.png' },
     { name: 'Tailwind', icon: '/tech/tailwind.png' },
     { name: 'Git', icon: '/tech/git.svg' },
   ];

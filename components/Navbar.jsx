@@ -12,8 +12,8 @@ const Navbar = () => {
           <li><Link href="/#technologies">Skills</Link></li>
           <li><Link href="/#projects">Work</Link></li>
           <li><Link href="/#resume">Resume</Link></li>
+          <li><Link href="/#contact">Contact</Link></li>
         </ul>
-        <Link href="/contact" className="btn btn-primary">Get in Touch</Link>
       </div>
       <style dangerouslySetInnerHTML={{
         __html: `

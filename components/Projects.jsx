@@ -8,23 +8,47 @@ const Projects = () => {
         {
             title: 'Street Level',
             description: 'An AI-powered Mandarin learning app that uses user personas and personalized feedback to help users learn Chinese.',
-            tech: ['Next.js', 'Postgres', 'Prisma', 'Node.js', 'Tailwind', 'Clerk'],
+            tech: ['Next.js', 'Postgres', 'Prisma', 'Tailwind', 'Clerk'],
             link: 'https://mandarin-learning-app-ivory.vercel.app/'
+        },
+        {
+            title: 'LectureGraph',
+            description: 'Using Whisper and OpenAI, LectureGraph creates a visual representation of lectures videos via interconnected nodes and edges.',
+            tech: ['Next.js', 'Postgres', 'Prisma', 'Cloudflare R2', 'FastAPI', 'Whisper', 'OpenAI'],
+            link: 'https://github.com/JassehXia/LectureGraph'
+        },
+        {
+            title: 'GrAIdescope - HackOHIO 2025',
+            description: 'By uploading an answer key and rubric, GrAIdescope can grade the student assignments and provide feedback.',
+            tech: ['React', 'Vite', 'Flask', 'PostgreSQL', 'NGINX', 'Amazon S3', 'Docker', 'OpenAI'],
+            link: 'https://github.com/25kgozon/HackOHIO25'
         }
     ];
 
     const sideProjects = [
         {
-            title: 'Custom CSS Framework',
-            description: 'A lightweight, utility-first CSS library built for personal projects.',
-            tech: ['CSS', 'PostCSS'],
-            link: '#'
+            title: 'Food Recommendation System',
+            description: 'A food recommendation system that uses machine learning to recommend food to users.',
+            tech: ['Next.js', 'PyTorch', 'FastAPI', 'Python', 'Pandas', 'Scikit-learn', 'GitHub Actions'],
+            link: 'https://github.com/JassehXia/tender-v2'
         },
         {
-            title: 'Weather Dashboard',
-            description: 'Simple weather app using OpenWeather API with beautiful glassmorphism UI.',
-            tech: ['JS', 'API'],
-            link: '#'
+            title: 'StudyApp',
+            description: 'A full-stack application that would turn uploaded pdfs into flashcards and quizzes.',
+            tech: ['Next.js', 'Postgres', 'Prisma', 'Tailwind', 'Clerk'],
+            link: 'https://github.com/JassehXia/study-app'
+        },
+        {
+            title: 'AI Character Chatbot',
+            description: 'Created a chatbot that can talk like any character by using OpenAI API.',
+            tech: ['React.js', 'FastAPI', 'OpenAI API', 'Tailwind'],
+            link: 'https://github.com/JassehXia/character-chatbot'
+        },
+        {
+            title: 'Tender',
+            description: 'A simple full stack application that\'s  like Tinder, but for food. Supports friending and auth.',
+            tech: ['React.js', 'MongoDB', 'Node.js', 'Express.js', 'HTML', 'CSS'],
+            link: 'https://github.com/JassehXia/tender'
         }
     ];
 

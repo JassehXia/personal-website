@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Jason Seh | Software Engineer",
+  title: "Jason Seh's Portfolio",
   description: "Personal portfolio of Jason Seh, a software engineer specializing in modern web technologies and AI/ML integration.",
 };
 
