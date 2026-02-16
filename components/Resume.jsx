@@ -14,6 +14,12 @@ const Resume = () => {
             company: 'Countryside YMCA',
             period: 'Oct 2024 - April 2025',
             details: 'Managed upwards of 20 kids, auditing and ensuring safety'
+        },
+        {
+            role: 'Software Engineer',
+            company: 'MTC - Luma Consulting',
+            period: 'Feb 2026 - Present',
+            details: 'Architecting a centralized hub for 100+ concurrent visitors using Next.js, React, and Supabase. Building high-performance UIs with Framer Motion and managing the end-to-end SDLC via GitHub and Vercel.'
         }
     ];
 
