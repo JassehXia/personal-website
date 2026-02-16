@@ -4,10 +4,10 @@ import React from 'react';
 const Resume = () => {
     const experience = [
         {
-            role: 'Summer Camp Counselor',
-            company: 'Countryside YMCA',
-            period: 'May 2024 - Aug 2024',
-            details: 'Led a team of campers in various activities and programs, including sports, arts, and outdoor activities.'
+            role: 'Software Engineer',
+            company: 'MTC - Luma Consulting',
+            period: 'Feb 2026 - Present',
+            details: 'Architecting a centralized hub for 100+ concurrent visitors using Next.js, React, and Supabase. Building high-performance UIs with Framer Motion and managing the end-to-end SDLC via GitHub and Vercel.'
         },
         {
             role: 'Motion Zone Attendant',
@@ -16,10 +16,10 @@ const Resume = () => {
             details: 'Managed upwards of 20 kids, auditing and ensuring safety'
         },
         {
-            role: 'Software Engineer',
-            company: 'MTC - Luma Consulting',
-            period: 'Feb 2026 - Present',
-            details: 'Architecting a centralized hub for 100+ concurrent visitors using Next.js, React, and Supabase. Building high-performance UIs with Framer Motion and managing the end-to-end SDLC via GitHub and Vercel.'
+            role: 'Summer Camp Counselor',
+            company: 'Countryside YMCA',
+            period: 'May 2024 - Aug 2024',
+            details: 'Led a team of campers in various activities and programs, including sports, arts, and outdoor activities.'
         }
     ];
 
