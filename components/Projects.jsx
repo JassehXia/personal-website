@@ -5,11 +5,24 @@ const Projects = () => {
     const [activeTab, setActiveTab] = useState('projects');
 
     const mainProjects = [
+
         {
-            title: 'Street Level',
-            description: 'An AI-powered Mandarin learning app that uses user personas and personalized feedback to help users learn Chinese.',
-            tech: ['Next.js', 'Postgres', 'Prisma', 'Tailwind', 'Clerk'],
-            link: 'https://mandarin-learning-app-ivory.vercel.app/'
+            title: 'AceIt - HackAI 2026',
+            description: 'Developed a high-performance, AI-driven mock interview platform providing real-time multimodal analysis (computer vision and audio) to evaluate candidate performance across behavioral and technical tracks. Placed 7th out of 100s of participants',
+            tech: ['Next.js', 'FastAPI', 'WebRTC', 'PyTorch', 'Librosa', 'Whisper', 'Gemini 3.0', 'Supabase'],
+            link: 'https://github.com/OSU-Hackathon-Team/HackAI2026'
+        },
+        {
+            title: 'OncoPath',
+            description: 'Engineered a predictive pipeline via XGBoost, analyzing 25,000+ patient records and 100+ feature sets from the MSK-MET dataset to quantify organ-specific metastatic risks with an average of  0.72 AUC-ROC score across all organ sites.',
+            tech: ['Next.js', 'FastAPI', 'XGBoost', 'SHAP', 'Scikit-learn', 'Tailwind CSS', 'Three.js'],
+            link: 'https://github.com/JassehXia/CancerPrediction'
+        },
+        {
+            title: 'Buckeye Sense - MakeOhio 2026',
+            description: 'Architected an asynchronous, end-to-end realtime pipeline that ingests high-frequency hashed Wi-Fi telemetry from a distributed ESP32 sensor network to visualize campus-wide human density in a 3D environment for fire rescue situations',
+            tech: ['React', 'Vite', 'Supabase', 'Postgis', 'Deck.gl', 'MapLibre', 'ESP32'],
+            link: 'https://github.com/OSU-Hackathon-Team/MakeOhio26'
         },
         {
             title: 'LectureGraph',
@@ -17,39 +30,23 @@ const Projects = () => {
             tech: ['Next.js', 'Postgres', 'Prisma', 'Cloudflare R2', 'FastAPI', 'Whisper', 'OpenAI'],
             link: 'https://github.com/JassehXia/LectureGraph'
         },
+
+    ];
+
+    const sideProjects = [
+        {
+            title: 'Street Level',
+            description: 'An AI-powered Mandarin learning app that uses user personas and personalized feedback to help users learn Chinese.',
+            tech: ['Next.js', 'Postgres', 'Prisma', 'Tailwind', 'Clerk'],
+            link: 'https://mandarin-learning-app-ivory.vercel.app/'
+        },
         {
             title: 'GrAIdescope - HackOHIO 2025',
             description: 'By uploading an answer key and rubric, GrAIdescope can grade the student assignments and provide feedback.',
             tech: ['React', 'Vite', 'Flask', 'PostgreSQL', 'NGINX', 'Amazon S3', 'Docker', 'OpenAI'],
             link: 'https://github.com/25kgozon/HackOHIO25'
         }
-    ];
 
-    const sideProjects = [
-        {
-            title: 'Food Recommendation System',
-            description: 'A food recommendation system that uses machine learning to recommend food to users.',
-            tech: ['Next.js', 'PyTorch', 'FastAPI', 'Python', 'Pandas', 'Scikit-learn', 'GitHub Actions'],
-            link: 'https://github.com/JassehXia/tender-v2'
-        },
-        {
-            title: 'StudyApp',
-            description: 'A full-stack application that would turn uploaded pdfs into flashcards and quizzes.',
-            tech: ['Next.js', 'Postgres', 'Prisma', 'Tailwind', 'Clerk'],
-            link: 'https://github.com/JassehXia/study-app'
-        },
-        {
-            title: 'AI Character Chatbot',
-            description: 'Created a chatbot that can talk like any character by using OpenAI API.',
-            tech: ['React.js', 'FastAPI', 'OpenAI API', 'Tailwind'],
-            link: 'https://github.com/JassehXia/character-chatbot'
-        },
-        {
-            title: 'Tender',
-            description: 'A simple full stack application that\'s  like Tinder, but for food. Supports friending and auth.',
-            tech: ['React.js', 'MongoDB', 'Node.js', 'Express.js', 'HTML', 'CSS'],
-            link: 'https://github.com/JassehXia/tender'
-        }
     ];
 
     const displayProjects = activeTab === 'projects' ? mainProjects : sideProjects;
@@ -57,7 +54,7 @@ const Projects = () => {
     return (
         <section id="projects" className="section">
             <div className="container">
-                <h2 className="text-gradient">Relevant Experiences</h2>
+                <h2 className="text-gradient">Projects</h2>
 
                 <div className="tabs-container">
                     <button

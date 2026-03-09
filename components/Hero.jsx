@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
           <div className="hero-btns" style={{ display: 'flex', gap: '1.5rem' }}>
 
-            <a href="/resume/resume.pdf" download="Jason_Seh_Resume.pdf" className="btn" style={{ border: '1px solid var(--accent-primary)', color: 'var(--accent-primary)' }}>Download CV</a>
+            <a href="/resume/resume.pdf" download="Jason_Seh_Resume.pdf" className="btn" style={{ border: '1px solid var(--accent-primary)', color: 'var(--accent-primary)' }}>Download Resume</a>
           </div>
         </div>
         <div className="hero-image-container">
