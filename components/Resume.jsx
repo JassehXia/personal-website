@@ -4,10 +4,10 @@ import React from 'react';
 const Resume = () => {
     const experience = [
         {
-            role: 'Software Engineer',
-            company: 'MTC - Luma Consulting',
-            period: 'Feb 2026 - Present',
-            details: 'Architecting a centralized hub for 100+ concurrent visitors using Next.js, React, and Supabase. Building high-performance UIs with Framer Motion and managing the end-to-end SDLC via GitHub and Vercel.'
+            role: 'Undergraduate Research Assistant - AI/ML',
+            company: 'The Ohio State University',
+            period: 'April 2026 - Present',
+            details: 'Under Professor Subramoni\'s SAI Lab'
         },
         {
             role: 'Motion Zone Attendant',
