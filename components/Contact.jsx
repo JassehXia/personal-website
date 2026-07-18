@@ -28,8 +28,8 @@ const Contact = () => {
                 <div className="contact-grid">
                     <div className="contact-info">
                         <p className="text-secondary" style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>
-                            I'm always open to new opportunities and collaborations.
-                            Drop me a message and I'll get back to you!
+                            I&apos;m always open to new opportunities and collaborations.
+                            Drop me a message and I&apos;ll get back to you!
                         </p>
                         <div className="contact-methods" style={{ display: 'flex', gap: '2rem' }}>
                             <div className="method">

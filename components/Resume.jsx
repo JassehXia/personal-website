@@ -4,10 +4,21 @@ import React from 'react';
 const Resume = () => {
     const experience = [
         {
+            role: "Software Engineering Intern",
+            company: "Center for Software Innovation x Honda",
+            period: 'Incoming Fall 2026'
+
+        },
+        {
             role: 'Undergraduate Research Assistant - AI/ML',
             company: 'The Ohio State University',
             period: 'April 2026 - Present',
-            details: 'Under Professor Subramoni\'s SAI Lab'
+            details: [
+                'Developed a distributed AI pipeline on the NRP Nautilus Kubernetes cluster and Tapis HPC platforms for zero-shot image classification, segmentation, and VQA using DINOv2, SAM, and Phi-3-Vision across large-scale image datasets.',
+                'Resolved GPU starvation by redesigning the data ingestion pipeline with multithreaded PyTorch DataLoaders, lazy loading, and model-weight caching, sustaining ~91% GPU utilization during large-scale inference.',
+                'Parallelized stratified cross-validation across 4 GPUs using Python multiprocessing, reducing end-to-end training time by ~75%.',
+                'Engineered GitHub Actions CI/CD pipelines to automatically build and deploy containerized AI microservices using Docker and Kubernetes, enabling reproducible remote batch inference and automated container management.'
+            ]
         },
         {
             role: 'Motion Zone Attendant',
@@ -35,7 +46,18 @@ const Resume = () => {
                                 <span className="period" style={{ fontSize: '0.9rem', color: 'var(--accent-secondary)' }}>{exp.period}</span>
                                 <h4 style={{ margin: '0.5rem 0' }}>{exp.role}</h4>
                                 <p className="text-secondary">{exp.company}</p>
-                                <p style={{ marginTop: '0.8rem' }}>{exp.details}</p>
+                                {Array.isArray(exp.details) ? (
+                                    <div style={{ marginTop: '0.8rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                                        {exp.details.map((detail, idx) => (
+                                            <div key={idx} style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start' }}>
+                                                <span style={{ color: 'var(--accent-primary)', marginTop: '0.2rem' }}>•</span>
+                                                <span style={{ flex: 1, lineHeight: '1.5', color: 'var(--text-secondary)' }}>{detail}</span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                ) : (
+                                    <p style={{ marginTop: '0.8rem', lineHeight: '1.5' }}>{exp.details}</p>
+                                )}
                             </div>
                         ))}
                     </div>

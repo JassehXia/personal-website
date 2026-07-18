@@ -11,7 +11,7 @@ const Hero = () => {
             Welcome to my portfolio
           </h4>
           <h1>
-            Hi, I'm <span className="text-gradient">Jason Seh</span><br />
+            Hi, I&apos;m <span className="text-gradient">Jason Seh</span><br />
 
           </h1>
           <p className="text-secondary" style={{ fontSize: '1.2rem', margin: '1.5rem 0 2.5rem 0' }}>
